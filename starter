@@ -1,0 +1,33 @@
+import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
+import { Head, Link, useForm } from "@inertiajs/react";
+
+export default function Create({ auth }) {
+   
+  return (
+    <AuthenticatedLayout
+      user={auth.user}
+      header={
+        <div className="flex justify-between">
+          <h2 className="text-xl font-semibold leading-tight text-gray-800">
+            Project Create
+          </h2>
+          <Link
+            href={route("project.index")}
+            className="text-white px-2 py-1 rounded bg-red-600"
+          >
+            Back
+          </Link>
+        </div>
+      }
+    >
+      <Head title="Project Create" />
+      <div className="py-12">
+        <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="overflow-hidden bg-white shadow-sm sm:rounded-lg">
+            form
+          </div>
+        </div>
+      </div>
+    </AuthenticatedLayout>
+  );
+}

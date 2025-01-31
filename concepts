@@ -1,0 +1,74 @@
+@routes in view/app
+=> responsible to gernate already registered routes in react components
+we define routes in react but in inertia laravel routes is use in react
+no need to define routes inreact (react router not use)
+=>all these things happen by ziggy packge.
+@vite in view/app
+gernate/load app.blade and pages
+@inertiaHead in view/app
+responsible for meta tags
+@inertia in view/app
+responsible for Render Entire react application
+
+---
+
+Inertia::render in web.php
+onter way inertia()
+make sure page/jsx components render
+loking for under resources/js/pages
+
+---
+
+<Link></Link>
+    just load single page while <a></a> load page and its assets (brower load)
+-------------------
+applicatin title  
+    in resources/js/app.jsx the following lins is respnsible for title
+    getting app name
+        => const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
+    getting title from component like in resources/js/pages/dashboard.jsx  <Head title="Dashboard" />
+        => title: (title) => `${title} - ${appName}`,
+---------------
+php artisan make:controller --model=Project --request --response
+---------------
+[*.{js,jsx}]
+indent_size = 2
+---------------
+create pages/project/Index 
+    taking {auth} as a paramemeter
+     question is {auth} kha sy aya
+     so, in app/http/middleware/Han... 
+          public function share(Request $request): array
+            {
+                return [
+                    ...parent::share($request),
+                    'auth' => [
+                        'user' => $request->user(),
+                    ],
+                ];
+            }
+---------------
+preserveScroll is use to prevent scroll
+---------------
+ dangerouslySetInnerHTML={{__html: link.label}} is use t cmpile html tags
+---------------
+npm install @heroicons/react
+for icons 
+--------------------------
+ public static $wrap = false;
+ in resource is use for unwrap
+
+data berfore using upper command
+{
+    data{
+        name:abc,
+        name:abc,
+        name:abc,
+    }
+}
+after
+data{
+    name:abc,
+    name:abc,
+    name:abc,
+}
