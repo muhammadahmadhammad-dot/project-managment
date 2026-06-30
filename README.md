@@ -56,7 +56,6 @@ This project follows Laravel's MVC architecture and leverages **React + Inertia.
 
 * Secure Authentication
 * User Registration & Login
-* Role-Based Access Control
 * Admin & User Roles
 * Profile Management
 
@@ -235,7 +234,7 @@ https://github.com/muhammadahmadhammad-dot
 
 **LinkedIn**
 
-https://linkedin.com/in/your-profile
+https://www.linkedin.com/in/muhammad-ahmad-hammad/
 
 ---
 
