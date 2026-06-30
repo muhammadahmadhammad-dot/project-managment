@@ -1,4 +1,4 @@
-# 📊 Project Management System
+# 📊 Laravel + React + Inertia.js Learning Project
 
 <div align="center">
 
@@ -8,248 +8,66 @@
 ![Inertia.js](https://img.shields.io/badge/Inertia.js-2.0-9553E9?style=for-the-badge)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge\&logo=bootstrap\&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
 
-### 🚀 A Modern Full-Stack Project Management System
+### 🚀 Full-Stack Learning Project
 
-**Built with Laravel 11, React, Inertia.js & MySQL**
+**Built with Laravel 11, React 19 & Inertia.js**
 
-*Manage Projects • Track Tasks • Collaborate with Teams*
+*Learning Laravel • React • Inertia.js • Authentication • CRUD • Full-Stack Development*
 
 </div>
 
 ---
 
-# 📖 Overview
+# 📖 About This Repository
 
-The **Project Management System** is a modern full-stack web application designed to simplify project planning, task management, and team collaboration.
+This repository was created as a **personal learning project** to explore full-stack web development using **Laravel 11**, **React 19**, and **Inertia.js**.
 
-It enables organizations and development teams to manage multiple projects, assign tasks, monitor progress, and improve productivity through a clean and intuitive dashboard.
+Instead of building a production-ready application, the primary goal was to understand how Laravel and React work together through Inertia.js while implementing real-world features such as authentication, CRUD operations, routing, validation, and project/task management.
 
-This project follows Laravel's MVC architecture and leverages **React + Inertia.js** for a fast single-page application (SPA) experience.
-
----
-
-# ✨ Features
-
-## 📁 Project Management
-
-* Create, update and delete projects
-* Organize project workflows
-* Manage project details
-* Track project status
-* Project overview dashboard
+The project follows Laravel's MVC architecture and demonstrates how to build a modern Single Page Application (SPA) without creating a separate backend API.
 
 ---
 
-## ✅ Task Management
+# 🎯 Learning Objectives
 
-* Create tasks
-* Assign tasks to team members
-* Update task progress
-* Task status management
-* Due date tracking
+This repository was built to gain practical experience with:
 
----
-
-## 👥 User Management
-
-* Secure Authentication
-* User Registration & Login
-* Admin & User Roles
-* Profile Management
-
----
-
-## 📊 Dashboard
-
-* Project statistics
-* Task analytics
-* Progress overview
-
----
-
-## 🔐 Authentication
-
-* Laravel Breeze Authentication
-* Laravel Sanctum
-* Protected Routes
-* Session Management
-* Secure Login System
-
----
-
-# 🛠️ Tech Stack
-
-| Category       | Technology               |
-| -------------- | ------------------------ |
-| Backend        | Laravel 11               |
-| Language       | PHP 8.2                  |
-| Frontend       | React.js                 |
-| SPA Bridge     | Inertia.js               |
-| Routing        | Ziggy                    |
-| Styling        | Bootstrap 5              |
-| Database       | MySQL                    |
-| Authentication | Laravel Breeze + Sanctum |
-| Testing        | Pest PHP                 |
-| Code Style     | Laravel Pint             |
-| Development    | Laravel Sail             |
-| Architecture   | MVC Pattern              |
-
----
-
-# 📦 Composer Packages
-
-## Production
-
-* Laravel Framework 11
-* Inertia.js Laravel
-* Laravel Sanctum
-* Laravel Tinker
-* Tighten Ziggy
-
-## Development
-
-* Laravel Breeze
-* Laravel Sail
-* Laravel Pint
-* Laravel Pail
-* Pest PHP
-* Pest Laravel Plugin
-* FakerPHP
-* Collision
-* Mockery
-
----
-
-# 📂 Project Structure
-
-```text
-app/
-bootstrap/
-config/
-database/
-public/
-resources/
-routes/
-storage/
-tests/
-vendor/
-```
-
----
-
-# ⚙️ Installation
-
-## 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/muhammadahmadhammad-dot/project-managment.git
-```
-
-## 2️⃣ Go to Project Folder
-
-```bash
-cd project-managment
-```
-
-## 3️⃣ Install Dependencies
-
-```bash
-composer install
-```
-
-```bash
-npm install
-```
-
-## 4️⃣ Configure Environment
-
-```bash
-cp .env.example .env
-```
-
-Update your database credentials inside the `.env` file.
-
----
-
-## 5️⃣ Generate Application Key
-
-```bash
-php artisan key:generate
-```
-
----
-
-## 6️⃣ Run Database Migrations
-
-```bash
-php artisan migrate
-```
-
----
-
-## 7️⃣ Start Development Server
-
-```bash
-php artisan serve
-```
-
----
-
-## 8️⃣ Run Frontend
-
-```bash
-npm run dev
-```
-
----
-
-
-# 📚 Learning Outcomes
-
-Through this project I gained practical experience in:
-
-* Laravel 11
-* React.js
-* Inertia.js
-* Authentication & Authorization
+* Laravel 11 fundamentals
+* React 19 integration with Laravel
+* Inertia.js SPA architecture
+* Authentication using Laravel Breeze
 * CRUD Operations
+* React Components & Hooks
+* Form handling and validation
+* Routing with Ziggy
+* Database relationships
+* MySQL integration
 * MVC Architecture
-* RESTful Development
-* Database Design
-* Role-Based Access Control
-* Git & GitHub Workflow
-* Modern Full-Stack Development
+* Full-stack application structure
+* Git & GitHub workflow
 
 ---
 
-# 👨‍💻 Developer
+# ✨ Implemented Features
 
-## Muhammad Ahmad Hammad
-
-**GitHub**
-
-https://github.com/muhammadahmadhammad-dot
-
-**LinkedIn**
-
-https://www.linkedin.com/in/muhammad-ahmad-hammad/
-
----
-
-# ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub.
-
-It helps support future development and motivates continued improvements.
+* User Authentication
+* Project CRUD
+* Task CRUD
+* Project Dashboard
+* React Components
+* Inertia.js Navigation
+* Form Validation
+* Protected Routes
+* Database Migrations
+* Responsive Interface
 
 ---
 
-<div align="center">
+# 📚 Learning Outcome
 
-## 💙 Thank You for Visiting
+This project significantly improved my understanding of modern Laravel development by providing hands-on experience with integrating React through Inertia.js. It also strengthened my knowledge of authentication, CRUD operations, database relationships, reusable React components, and organizing scalable full-stack applications.
 
-Made with ❤️ by **Muhammad Ahmad Hammad**
+---
 
-</div>
+> **Note:** This repository is intended for learning and practice purposes. It documents my journey of understanding Laravel, React, and Inertia.js through practical implementation rather than serving as a production-ready application.
