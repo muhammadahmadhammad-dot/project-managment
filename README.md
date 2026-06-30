@@ -48,10 +48,6 @@ This project follows Laravel's MVC architecture and leverages **React + Inertia.
 * Assign tasks to team members
 * Update task progress
 * Task status management
-
-  * 📝 To Do
-  * 🚧 In Progress
-  * ✅ Completed
 * Due date tracking
 
 ---
@@ -70,9 +66,7 @@ This project follows Laravel's MVC architecture and leverages **React + Inertia.
 
 * Project statistics
 * Task analytics
-* Recent activities
 * Progress overview
-* Productivity tracking
 
 ---
 
@@ -212,34 +206,6 @@ npm run dev
 
 ---
 
-# 📸 Screenshots
-
-> Add screenshots of the following pages.
-
-* 🏠 Dashboard
-* 📁 Projects
-* ✅ Tasks
-* 👥 Users
-* 🔐 Login
-* 📊 Analytics
-
----
-
-# 🎯 Future Enhancements
-
-* Kanban Board
-* Calendar View
-* Notifications
-* Email Integration
-* Team Chat
-* File Uploads
-* Dark Mode
-* Activity Logs
-* Project Timeline
-* REST API
-* Docker Support
-
----
 
 # 📚 Learning Outcomes
 
@@ -271,10 +237,6 @@ https://github.com/muhammadahmadhammad-dot
 
 https://linkedin.com/in/your-profile
 
-**Portfolio**
-
-https://yourportfolio.com
-
 ---
 
 # ⭐ Support
@@ -285,17 +247,9 @@ It helps support future development and motivates continued improvements.
 
 ---
 
-# 📄 License
-
-This project is open-source and available under the **MIT License**.
-
----
-
 <div align="center">
 
 ## 💙 Thank You for Visiting
-
-**Happy Coding! 🚀**
 
 Made with ❤️ by **Muhammad Ahmad Hammad**
 
